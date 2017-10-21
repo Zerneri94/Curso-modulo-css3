@@ -1,0 +1,13 @@
+.translate {
+    background-color: #000;
+    width: 400px;
+    height: 400px;
+}
+
+.translate img {
+    transition: all .5s linear;
+}
+
+.translate img:hover {
+    transform: translate(200px,0px);
+}

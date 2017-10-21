@@ -18,7 +18,11 @@ body {
     height: 200px;
     border-radius: 100%;
     background-color: #e67e22;
+<<<<<<< HEAD
     animation: sun 10s ease-in-out infinite;
+=======
+    animation: sun 10s linear infinite;
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
 }
 
 /*Moon*/
@@ -28,7 +32,10 @@ body {
     width: 275px;
     height: 250px;
     left: -276px;
+<<<<<<< HEAD
     animation: moon 10s linear infinite;
+=======
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
 }
 .moon_light {
     position: absolute;
@@ -57,7 +64,12 @@ body {
     left: -340px;
     width: 350px;
     height: 150px;
+<<<<<<< HEAD
     animation: cloud 10s ease-in-out infinite;
+=======
+    animation: cloud 17s linear infinite;
+    animation-play-state: cloud 17s linear infinite;
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
 }
 
 .cloud_1,
@@ -97,6 +109,7 @@ body {
 
 /*body*/ 
 @keyframes body {
+<<<<<<< HEAD
     0% {
         background-color: #78abdb;
     }  
@@ -111,6 +124,13 @@ body {
     }
     100% {
         background-color: #25354e;
+=======
+    from {
+        background-color: #25354e;
+    }
+    to {
+        background-color: skyblue;
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
     }
 }
 
@@ -120,12 +140,20 @@ body {
         left: 75%;
         background-color: #e67e22;
     }
+<<<<<<< HEAD
     40% {
+=======
+    30% {
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
         top: 10%;
         left: 75%;
         background-color: #f1c40f;
     }
+<<<<<<< HEAD
     70% {
+=======
+    60% {
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
         top:10%; 
         left: 5%;  
         background-color: #e67e22;      
@@ -138,6 +166,7 @@ body {
 }
 
 @keyframes cloud {
+<<<<<<< HEAD
     0%{
         top:60px;
         left:-340px;
@@ -170,3 +199,18 @@ body {
         top:20px;
         left:50px;
     }
+=======
+    0% {
+        top:60px;
+        left: -340px;
+    }
+   75%{
+       top:60px;
+       left: 0;
+   }
+   100% {
+       top:60px;
+       left: 800px;
+   }
+}
+>>>>>>> f21b4433d34b9d82b1a54dfeb3ed32dfbb27d98c
